@@ -1,6 +1,15 @@
+const express = require('express')
+const app = express()
+const port = 3000
 
-let temp = 0
-while(1):
-  console.log("Server running at http:");
-  console.log(temp);
-  tmpe = temp+1
+app.get('/', (request, response) => {
+  response.send('Hello from Express!')
+})
+
+app.listen(port, (err) => {
+  if (err) {
+    return console.log('something bad happened', err)
+  }
+
+  console.log(`server is listening on ${port}`)
+})
