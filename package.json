@@ -1,15 +1,28 @@
 {
-  "name": "node_js_temp_logger",
-  "version": "1.0.0",
-  "description": "",
-  "main": "esp_simulator.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "node_js_server_temp_logger",
+  "version": "1.0.1",
+  "description": "this is the apckage file",
+  "main": "script.js",
   "dependencies": {
     "express": "^4.17.1",
     "ip": "^1.1.5"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRGeeesus/node_js_server_temp_logger.git"
+  },
+  "keywords": [
+    "test",
+    "test"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PRGeeesus/node_js_server_temp_logger/issues"
+  },
+  "homepage": "https://github.com/PRGeeesus/node_js_server_temp_logger#readme"
 }
