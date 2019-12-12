@@ -5,11 +5,15 @@
   "main": "script.js",
   "dependencies": {
     "express": "^4.17.1",
-    "ip": "^1.1.5"
+    "ip": "^1.1.5",
+    "webpack-dev-server": "^3.9.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo Test"
+    "start": "script.js"
+  }
+
   },
   "repository": {
     "type": "git",
