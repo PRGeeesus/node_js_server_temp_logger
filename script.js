@@ -11,10 +11,7 @@ app.use(function (req, res, next) {
    next(err);*/
 
   // Website you wish to allow to connect
-  res.setHeader('Access-Control-Allow-Origin', 'esp_simulator_hmtl.html',
-                                               'file:///C:/localhost:3000/incomeing',
-                                               'https://martintestlogger.000webhostapp.com/esp_simulator_hmtl.html',
-                                               'https://martintestlogger.000webhostapp.com/');
+  res.setHeader('Access-Control-Allow-Origin', '192.168.0.10','https://martintestlogger.000webhostapp.com/');
 
   // Request methods you wish to allow
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');

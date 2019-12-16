@@ -1,7 +1,7 @@
 {
   "name": "node_js_server_temp_logger",
-  "version": "1.0.1",
-  "description": "this is the apckage file",
+  "version": "1.0.0",
+  "description": "asdf",
   "main": "script.js",
   "dependencies": {
     "express": "^4.17.1",
@@ -10,18 +10,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo Test"
-    "start": "script.js"
-  }
-
+    "test": "asfd"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PRGeeesus/node_js_server_temp_logger.git"
   },
   "keywords": [
-    "test",
-    "test"
+    "afsd"
   ],
   "author": "me",
   "license": "ISC",
