@@ -43,9 +43,11 @@ app.get('/home', (request, response) => {
 
 app.post('/incomeing', function(request, response){
   console.log("Post to /incomeing - this was send to the node server logging body")
-  console.log(request.body)
-    //console.log(request);
+  console.log(Object.keys(request))
+
 })
+
+
 
 
 console.log(`server is listening on ${port} at IP:`)
