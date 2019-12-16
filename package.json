@@ -11,6 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "test"
+    "start": "start.js"
   },
   "repository": {
     "type": "git",
