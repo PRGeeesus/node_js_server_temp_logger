@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "test": "test",
     "start": "start.js"
   },
   "repository": {
