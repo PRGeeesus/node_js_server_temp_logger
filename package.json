@@ -4,7 +4,7 @@
   "description": "blabl start diemalö",
   "main": "start.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "ip": "^1.1.5",
     "webpack-dev-server": "^3.9.0"
   },
